@@ -2,6 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import product, { numbers } from './math.js'
+// we don't need sum function this time
+
+console.log(numbers.reduce(product));
+// 11250000
+
 function App() {
   return (
     <div className="App">
